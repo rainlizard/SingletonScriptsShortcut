@@ -1,0 +1,2 @@
+# SingletonScriptsShortcut
+![](screenshot.png)
