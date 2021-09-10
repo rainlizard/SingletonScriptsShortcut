@@ -1,6 +1,8 @@
 tool
 extends EditorPlugin
 
+const ALPHABETICAL_SORT = true
+
 var editorInterface = get_editor_interface()
 var scriptEditor = editorInterface.get_script_editor()
 var scriptEditorMenu = scriptEditor.get_child(0).get_child(0)
@@ -24,7 +26,7 @@ func update_shortcuts():
 	if scriptEditor.get_current_script() != null:
 		currentScript = scriptEditor.get_current_script().get_path()
 	
-	shortcuts.add_singletons(getListOfSingletons(), self, currentScript)
+	shortcuts.add_singletons(getListOfSingletons(), self, currentScript, ALPHABETICAL_SORT)
 
 func on_buttonpressed():
 	update_shortcuts()
