@@ -1,6 +1,8 @@
 tool
 extends EditorPlugin
 
+# Disable if you prefer to not sort the singletons
+# alphabetically in the drop down list.
 const ALPHABETICAL_SORT = true
 
 var editorInterface = get_editor_interface()
