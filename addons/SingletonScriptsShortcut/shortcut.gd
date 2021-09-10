@@ -3,10 +3,12 @@ tool
 onready var scriptIconTexture = get_icon("Script", "EditorIcons")
 var popup = get_popup()
 
-func add_singletons(dictionary, plugin, currentlyOpen):
+func add_singletons(dictionary, plugin, currentlyOpen, alphasort:bool):
 	var dictionaryKeys:Array = dictionary.keys()
 	var dictionaryValues:Array# = dictionary.values()
-	dictionaryKeys.sort()
+	
+	if alphasort:
+		dictionaryKeys.sort()
 
 	for i in dictionaryKeys.size():
 		dictionaryValues.append(dictionary[dictionaryKeys[i]])
