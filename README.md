@@ -1,2 +1,2 @@
 # SingletonScriptsShortcut
-![screenshot](https://user-images.githubusercontent.com/15337628/124056158-8c494c80-da68-11eb-8cf9-c6b6efff022d.png)
+![screenshot](https://user-images.githubusercontent.com/6888784/132967592-739e0ce7-0ae0-46de-9073-c30748db671d.png)
