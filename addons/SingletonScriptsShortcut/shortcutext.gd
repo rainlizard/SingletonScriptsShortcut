@@ -38,3 +38,4 @@ func add_singletons(dictionary, plugin, currentlyOpen, alphasort:bool=true):
 		
 		if dictionaryValues[i] == currentlyOpen:
 			itemlist.set_item_disabled(i,true)
+	release_focus()
